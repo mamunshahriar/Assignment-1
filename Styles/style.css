@@ -1,0 +1,140 @@
+/* shared styles */
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+/* banner section */
+
+
+.banner-content {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);;
+    background-image: url("../resources/Banner\ Image.png");
+    
+    background-repeat: no-repeat;
+    margin: 0px 400px;
+
+
+}
+
+.banner-text {
+    padding: 233px 344px 177px;
+    text-align: center;
+    width: 632px;
+    color: #fff;
+}
+
+.banner-text h2 {
+    color: #FFF;
+    font-family: var(---ff1);
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-text h1 {
+    color: #FFF;
+    font-family: var(---ff1);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+
+
+
+
+
+
+
+
+.off-content {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.off-text h1 {
+    margin-bottom: 0px;
+    color: #F00;
+    font-family: var(---ff2);
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.off-text p {
+    margin-top: 30px;
+    color: #F00;
+    font-family: var(---ff2);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.off-text h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #070211;
+    font-family: var(---ff2);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.off-img{
+    padding-top: 50px;
+
+    padding-bottom: 120px;
+}
+
+
+
+
+
+
+
+.wellcome-content {
+    margin-top: 100px;
+    background-image: url("../resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    margin: 0px 400px;
+}
+
+.well-row {
+    padding: 70px 50px 70px 150px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.well-col-text {
+    width: 700px;
+
+}
+
+.well-col-text h1 {
+    color: #FFF;
+    font-family: var(---ff1);
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.well-col-text p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: var(---ff2);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.well-col-text a {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
