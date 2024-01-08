@@ -40,7 +40,7 @@ img {
 .banner-content {
     margin-top: 50px;
     margin-bottom: 0px;
-    background-image: url(../images/Banner\ Image.png);
+    background-image: url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
@@ -118,7 +118,7 @@ img {
 /* Wellcome Part Start */
 .wellcome-content {
     margin-top: 100px;
-    background-image: url(../images/Vectorrr.png);
+    background-image: url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
