@@ -87,12 +87,12 @@ img {
 
 /* Others Content */
 
-.off-content {
+.others-content {
     margin-top: 50px;
     text-align: center;
 }
 
-.off-text h1 {
+.others-text h1 {
     margin-bottom: 0px;
     color: #F00;
     font-family: var(---ff2);
@@ -100,7 +100,7 @@ img {
     font-weight: 700;
 }
 
-.off-text p {
+.others-text p {
     margin-top: 30px;
     color: #F00;
     font-family: var(---ff2);
@@ -108,7 +108,7 @@ img {
     font-weight: 500;
 }
 
-.off-text h2 {
+.others-text h2 {
     margin-top: 20px;
     margin-bottom: 40px;
     color: #070211;
@@ -122,7 +122,7 @@ img {
 /* Welcome section */
 
 
-.wellcome-content {
+.welcome-content {
     margin-top: 100px;
     background-image: url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ img {
     z-index: 1;
 }
 
-.wellcome-content::before {
+.welcome-content::before {
     position: absolute;
     content: '';
     border-radius: 16px;
@@ -142,7 +142,7 @@ img {
     z-index: -1;
 }
 
-.well-row {
+.welcome-row {
     padding: 70px 50px 70px 150px;
     display: flex;
     gap: 50px;
@@ -150,12 +150,12 @@ img {
 
 }
 
-.well-col-text {
+.welcome-column-text {
     width: 700px;
 
 }
 
-.well-col-text h1 {
+.welcome-column-text h1 {
     color: #FFF;
     font-family: var(---ff1);
     font-size: 64px;
@@ -164,7 +164,7 @@ img {
     letter-spacing: 7.04px;
 }
 
-.well-col-text p {
+.welcome-column-text p {
     margin-top: 20px;
     margin-bottom: 30px;
     color: rgba(255, 255, 255, 0.80);
@@ -174,7 +174,7 @@ img {
     line-height: 30px;
 }
 
-.well-col-text a {
+.welcome-column-text a {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -184,24 +184,26 @@ img {
     transition: all linear .3s;
 }
 
-.well-col-text a:hover {
-    color: var(---Color);
+.welcome-column-text a:hover {
+    color: red;
 }
 
 
 
 /* Party Join Section */
-.join {
+
+
+.party-join {
     margin-top: 100px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
-.join-text {
+.party-join-text {
     padding: 100px 385px 215px 385px;
     text-align: center;
 }
 
-.join-text p {
+.party-join-text p {
     color: #070211;
     font-family: var(---ff2);
     font-size: 32px;
@@ -210,7 +212,7 @@ img {
     text-transform: capitalize;
 }
 
-.join-text .red {
+.party-join-text .red {
     color: #F00;
     font-family: var(---ff2);
     font-size: 32px;
@@ -231,7 +233,7 @@ img {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    border-radius: 8px;
+    border-radius: 10px;
     background: #F00;
     border: 0px;
     cursor: pointer;
@@ -239,7 +241,7 @@ img {
 }
 
 .join-button:hover {
-    background: var(---Color);
+    background: black;
 }
 
 
@@ -255,31 +257,31 @@ img {
     gap: 150px;
 }
 
-.offer-col-one {
+.offer-column-one {
     width: 393px;
 }
 
-.off-text-one {
+.offer-text-one {
     width: 393px;
 }
 
-.off-text-two {
+.offer-text-two {
     width: 276px;
 }
 
-.offer-col-one {
+.offer-column-one {
     width: 600px;
 }
 
 
-.offer-colt-text-one h6 {
+.offer-column-text-one h6 {
     color: #F00;
     font-family: var(---ff2);
     font-size: 24px;
     font-weight: 500;
 }
 
-.offer-colt-text-one h1 {
+.offer-column-text-one h1 {
     margin-top: 15px;
     color: #070211;
     font-family: var(---ff1);
@@ -288,7 +290,7 @@ img {
     text-transform: capitalize;
 }
 
-.offer-colt-text-one p {
+.offer-column-text-one p {
     margin-top: 20px;
     color: rgba(7, 2, 17, 0.60);
     font-family: var(---ff2);
@@ -297,11 +299,11 @@ img {
     line-height: 32px;
 }
 
-.offer-col-two {
+.offer-column-two {
     position: relative;
 }
 
-.offer-col-two .img::after {
+.offer-column-two .img::after {
     position: absolute;
     width: 463px;
     height: 463px;
@@ -312,7 +314,7 @@ img {
     border: 15px solid #F00;
 }
 
-.offer-colt-text-two h5 {
+.offer-column-text-two h5 {
 
     color: #F00;
     font-family: var(---ff2);
@@ -320,7 +322,7 @@ img {
     font-weight: 700;
 }
 
-.offer-colt-text-two p {
+.offer-column-text-two p {
     margin-top: 15px;
     color: rgba(7, 2, 17, 0.60);
     font-family: var(---ff2);
@@ -329,7 +331,7 @@ img {
     line-height: 32px;
 }
 
-.offer-colt-text-two img {
+.offer-column-text-two img {
     margin-top: 20px;
     width: 140px;
     height: 140px;
@@ -551,7 +553,7 @@ input {
 }
 
 .sus-button:hover {
-    background: var(---Color);
+    background: black;
 }
 
 
@@ -678,5 +680,10 @@ input {
 
 .foot-copyright-col .p-two:hover {
     color: red;
+    
 }
 
+.color-hover{
+    color: #F00;
+    
+}
